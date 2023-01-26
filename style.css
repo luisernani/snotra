@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2D4290;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("img/Ellipse-background.png");
+}
+header{
+    padding: 0 10rem;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul .menu-logo{
+    margin-left: auto;
+}
+
+
+/* ---------------------- HERO ---------------------- */
+.container-hero{
+    padding: 5rem 10rem;
+}
+h1{
+    max-width: 30vw;
+}
+.hero-img-box{
+    display: flex;
+    justify-content: center;
+}
+.hero-img{
+    max-width: 100%;
+}
+
+
+/* ---------------------- MAIN ---------------------- */
+.container{
+    padding: 5rem 10rem; 
+    display: flex;
+    align-items: center;
+    /* border: solid red; */
+}
+
+.container-box{
+    /* border: solid #59C363; */
+    max-height: 15vw;
+    text-align: justify;
+}
+.container-img{
+    /* border: solid black; */
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.saiba-mais-img{
+    width: 105%;
+    /* border: solid #59C363; */
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+}
+@media only screen and (max-width: 1300px) {
+    .container{
+        padding: 10rem 5rem; 
+        
+    }
+    
+}
+
+/* ---------------------- FOOTER ---------------------- */
+
+/* ---------------------- DEVELOPER ---------------------- */
+.desenvolvedor{
+    background-color: #59C363;
+    padding: 2rem 10rem;
+    text-align: center;
+}
+.desenvolvedor a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
